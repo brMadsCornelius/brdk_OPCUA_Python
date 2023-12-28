@@ -32,6 +32,7 @@ async def main():
     # populating our address space with some random stuff
     testFolder = await objects.add_object(idx, "TestFolder")
     myvar = await testFolder.add_variable(idx, "MyVariable", 6.7)
+    myvar = await testFolder.add_variable(idx, "MyVariable2", 42.0)
     await myvar.set_writable()  # Set MyVariable to be writable by clients
     mystringvar = await testFolder.add_variable(idx, "MyStringVariable", "Really nice string")
     await mystringvar.set_writable()  # Set MyVariable to be writable by clients
