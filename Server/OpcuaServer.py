@@ -1,5 +1,6 @@
 import asyncio
 from asyncua import ua, uamethod, Server
+import json
 
 # method to be exposed through server
 def func(parent, variant):
@@ -7,6 +8,7 @@ def func(parent, variant):
     if variant.Value % 2 == 0:
         ret = True
     return [ua.Variant(ret, ua.VariantType.Boolean)]
+
 
 async def main():
 
@@ -26,24 +28,46 @@ async def main():
     uri = "http://brdk.opcua.com"
     idx = await server.register_namespace(uri)
 
-    # get Objects node, this is where we should put our custom stuff
-    objects = server.nodes.objects
-
     # populating our address space with some random stuff
-    testFolder = await objects.add_object(idx, "TestFolder")
-    myvar = await testFolder.add_variable(idx, "MyVariable", 6.7)
-    myvar = await testFolder.add_variable(idx, "MyVariable2", 42.0)
-    await myvar.set_writable()  # Set MyVariable to be writable by clients
-    mystringvar = await testFolder.add_variable(idx, "MyStringVariable", "Really nice string")
-    await mystringvar.set_writable()  # Set MyVariable to be writable by clients
-    myarrayvar = await testFolder.add_variable(idx, "myarrayvar", [6.7, 7.9])
-    myuintvar = await testFolder.add_variable(idx, "myuintvar", ua.UInt16(4))
-    await testFolder.add_variable(idx, "myStronglytTypedVariable", ua.Variant([], ua.VariantType.UInt32))
-    await myarrayvar.set_writable(True)
-    myprop = await testFolder.add_property(idx, "myproperty", "I am a property")
-    mymethod = await testFolder.add_method(
-        idx, "mymethod", func, [ua.VariantType.UInt32], [ua.VariantType.Boolean]
-    )
+    Variables = await server.nodes.objects.add_object(idx, "Variables")
+
+    filename = "AsNodes.json"
+    with open(filename, "r") as json_file:
+        data = json.load(json_file)
+
+    # Iterate through the JSON file and add all the specified nodes
+    for key, values in data.items():
+        for value in values:
+            if key == "BOOL":
+                myvar = await Variables.add_variable(idx, value, ua.Variant(False, ua.VariantType.Boolean))
+                await myvar.set_writable()
+            elif key == "USINT":
+                myvar = await Variables.add_variable(idx, value, ua.Variant(0, ua.VariantType.Byte))
+                await myvar.set_writable()
+            elif key == "SINT":
+                myvar = await Variables.add_variable(idx, value, ua.Variant(0, ua.VariantType.SByte))
+                await myvar.set_writable()
+            elif key == "UINT":
+                myvar = await Variables.add_variable(idx, value, ua.Variant(0, ua.VariantType.UInt16))
+                await myvar.set_writable()
+            elif key == "INT":
+                myvar = await Variables.add_variable(idx, value, ua.Variant(0, ua.VariantType.Int16))
+                await myvar.set_writable()
+            elif key == "DINT":
+                myvar = await Variables.add_variable(idx, value, ua.Variant(0, ua.VariantType.Int32))
+                await myvar.set_writable()
+            elif key == "UDINT":
+                myvar = await Variables.add_variable(idx, value, ua.Variant(0, ua.VariantType.UInt32))
+                await myvar.set_writable()
+            elif key == "REAL":
+                myvar = await Variables.add_variable(idx, value, ua.Variant(0.0, ua.VariantType.Float))
+                await myvar.set_writable()
+            elif key == "STRING":
+                myvar = await Variables.add_variable(idx, value, ua.Variant("", ua.VariantType.String))
+                await myvar.set_writable()
+            else:
+                print(f"Datatype doesn't exist: {key}")
+
 
     async with server:
         while True:

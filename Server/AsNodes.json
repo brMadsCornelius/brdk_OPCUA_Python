@@ -1,0 +1,11 @@
+{
+    "BOOL": ["myBool1","myBool2"],
+    "USINT": ["myUsint","myUsint2","myUsint3"],
+    "SINT": [],
+    "UINT": [],
+    "INT": [],
+    "DINT": [],
+    "UDINT": [],
+    "REAL": [],
+    "STRING": ["myString"]
+}
