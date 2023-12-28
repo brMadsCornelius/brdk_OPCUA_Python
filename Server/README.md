@@ -6,7 +6,17 @@ A configurable OPCUA server.
 
 
 
-## Run the server using Docker
+## Run server
+
+Install requirements on your PC:
+
+`pip install -r requirements.txt`
+
+Run the server script:
+
+`python OpcuaServer.py`
+
+## Run server using Docker
 
 Build the docker image:
 
