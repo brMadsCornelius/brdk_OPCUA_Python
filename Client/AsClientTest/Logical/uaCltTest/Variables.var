@@ -1,0 +1,21 @@
+VAR CONSTANT
+	MAX_OPCUA_CLIENTS : USINT := 9;
+END_VAR
+VAR
+	EasyUaReads : ARRAY[0..MAX_OPCUA_CLIENTS] OF EasyUaRead;
+	TON_0 : TON;
+	Test : BOOL;
+	i : USINT;
+END_VAR
+(*Variables to read into*)
+VAR
+	myBool : BOOL;
+	myUsint : USINT;
+	mySint : SINT;
+	myUint : UINT;
+	myInt : INT;
+	myDint : DINT;
+	myUdint : UDINT;
+	myReal : REAL;
+	myString : STRING[80];
+END_VAR

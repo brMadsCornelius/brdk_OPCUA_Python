@@ -1,9 +1,8 @@
 FROM python:3.9
 
-ADD OpcuaServer.py .
-
-COPY requirements.txt .
+COPY . .
 
 RUN pip install -r requirements.txt
 
+EXPOSE 4840
 CMD ["python","./OpcuaServer.py"]

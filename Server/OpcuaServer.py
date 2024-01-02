@@ -2,23 +2,15 @@ import asyncio
 from asyncua import ua, uamethod, Server
 import json
 
-# method to be exposed through server
-def func(parent, variant):
-    ret = False
-    if variant.Value % 2 == 0:
-        ret = True
-    return [ua.Variant(ret, ua.VariantType.Boolean)]
-
-
 async def main():
 
     # now set up our server
     server = Server()
     await server.init()
-    server.set_endpoint("opc.tcp://0.0.0.0:4840")                # Use the PCs IP here.
+    server.set_endpoint("opc.tcp://0.0.0.0:4840")                # Server endpoint
     server.set_server_name("B&RDK OPCUA Server")
 
-    # B&R clients needs "MaxBrowseContinuationPoints" to be different from null otherwise a connectio can't be established (node specified in opcua standard)
+    # B&R clients needs "MaxBrowseContinuationPoints" to be different from null otherwise a connection can't be established (node specified in opcua standard)
     max_browse_continuation_points_node = server.get_node(ua.NodeId(2735, 0))
     await max_browse_continuation_points_node.set_value(ua.Variant(10, ua.VariantType.UInt16))
     ServiceLevel = server.get_node(ua.NodeId(2267, 0))
@@ -39,31 +31,31 @@ async def main():
     for key, values in data.items():
         for value in values:
             if key == "BOOL":
-                myvar = await Variables.add_variable(idx, value, ua.Variant(False, ua.VariantType.Boolean))
+                myvar = await Variables.add_variable(ua.NodeId(value,idx), value, ua.Variant(False, ua.VariantType.Boolean))
                 await myvar.set_writable()
             elif key == "USINT":
-                myvar = await Variables.add_variable(idx, value, ua.Variant(0, ua.VariantType.Byte))
+                myvar = await Variables.add_variable(ua.NodeId(value,idx), value, ua.Variant(0, ua.VariantType.Byte))
                 await myvar.set_writable()
             elif key == "SINT":
-                myvar = await Variables.add_variable(idx, value, ua.Variant(0, ua.VariantType.SByte))
+                myvar = await Variables.add_variable(ua.NodeId(value,idx), value, ua.Variant(0, ua.VariantType.SByte))
                 await myvar.set_writable()
             elif key == "UINT":
-                myvar = await Variables.add_variable(idx, value, ua.Variant(0, ua.VariantType.UInt16))
+                myvar = await Variables.add_variable(ua.NodeId(value,idx), value, ua.Variant(0, ua.VariantType.UInt16))
                 await myvar.set_writable()
             elif key == "INT":
-                myvar = await Variables.add_variable(idx, value, ua.Variant(0, ua.VariantType.Int16))
+                myvar = await Variables.add_variable(ua.NodeId(value,idx), value, ua.Variant(0, ua.VariantType.Int16))
                 await myvar.set_writable()
             elif key == "DINT":
-                myvar = await Variables.add_variable(idx, value, ua.Variant(0, ua.VariantType.Int32))
+                myvar = await Variables.add_variable(ua.NodeId(value,idx), value, ua.Variant(0, ua.VariantType.Int32))
                 await myvar.set_writable()
             elif key == "UDINT":
-                myvar = await Variables.add_variable(idx, value, ua.Variant(0, ua.VariantType.UInt32))
+                myvar = await Variables.add_variable(ua.NodeId(value,idx), value, ua.Variant(0, ua.VariantType.UInt32))
                 await myvar.set_writable()
             elif key == "REAL":
-                myvar = await Variables.add_variable(idx, value, ua.Variant(0.0, ua.VariantType.Float))
+                myvar = await Variables.add_variable(ua.NodeId(value,idx), value, ua.Variant(0.0, ua.VariantType.Float))
                 await myvar.set_writable()
             elif key == "STRING":
-                myvar = await Variables.add_variable(idx, value, ua.Variant("", ua.VariantType.String))
+                myvar = await Variables.add_variable(ua.NodeId(value,idx), value, ua.Variant("", ua.VariantType.String))
                 await myvar.set_writable()
             else:
                 print(f"Datatype doesn't exist: {key}")
