@@ -1,0 +1,433 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.12.4.107 SP"?>
+<Objects>
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Logical\Package.pkg"
+    LogicalPath=""
+    Type="Package.ParentUnknown"
+    LastWriteTime="133486564183689361" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Logical\Global.typ"
+    LogicalPath="Global.typ"
+    Type="File"
+    LastWriteTime="133475404164777259"
+    Private="false" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Logical\Global.var"
+    LogicalPath="Global.var"
+    Type="File"
+    LastWriteTime="133475404164797251"
+    Private="false" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Logical\Libraries\Package.pkg"
+    LogicalPath="Libraries"
+    Type="Package"
+    LastWriteTime="133475404165177273" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Logical\Libraries\operator\binary.lby"
+    LogicalPath="Libraries.operator"
+    Type="Library"
+    LastWriteTime="133461599932550403" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Logical\Libraries\operator\operator.fun"
+    LogicalPath="Libraries.operator.operator.fun"
+    Type="File"
+    LastWriteTime="133461599932580393"
+    Private="false" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Logical\Libraries\operator\operator.typ"
+    LogicalPath="Libraries.operator.operator.typ"
+    Type="File"
+    LastWriteTime="133461599932600374"
+    Private="false" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Logical\Libraries\operator\operator.var"
+    LogicalPath="Libraries.operator.operator.var"
+    Type="File"
+    LastWriteTime="133461599932630361"
+    Private="false" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Logical\Libraries\runtime\binary.lby"
+    LogicalPath="Libraries.runtime"
+    Type="Library"
+    LastWriteTime="133461599932740320" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Logical\Libraries\runtime\runtime.fun"
+    LogicalPath="Libraries.runtime.runtime.fun"
+    Type="File"
+    LastWriteTime="133461599932770318"
+    Private="false" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Logical\Libraries\runtime\runtime.typ"
+    LogicalPath="Libraries.runtime.runtime.typ"
+    Type="File"
+    LastWriteTime="133461599932790307"
+    Private="false" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Logical\Libraries\runtime\runtime.var"
+    LogicalPath="Libraries.runtime.runtime.var"
+    Type="File"
+    LastWriteTime="133461599932820300"
+    Private="false" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Logical\Libraries\astime\binary.lby"
+    LogicalPath="Libraries.astime"
+    Type="Library"
+    LastWriteTime="133461599932430444" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Logical\Libraries\astime\astime.fun"
+    LogicalPath="Libraries.astime.astime.fun"
+    Type="File"
+    LastWriteTime="133461599932360481"
+    Private="false" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Logical\Libraries\astime\astime.typ"
+    LogicalPath="Libraries.astime.astime.typ"
+    Type="File"
+    LastWriteTime="133461599932390458"
+    Private="false" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Logical\Libraries\astime\astime.var"
+    LogicalPath="Libraries.astime.astime.var"
+    Type="File"
+    LastWriteTime="133461599932410454"
+    Private="false" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Logical\Libraries\AsIecCon\binary.lby"
+    LogicalPath="Libraries.AsIecCon"
+    Type="Library"
+    LastWriteTime="133461599931410825" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Logical\Libraries\AsIecCon\AsIecCon.fun"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.fun"
+    Type="File"
+    LastWriteTime="133461599931230904"
+    Private="false" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Logical\Libraries\AsIecCon\AsIecCon.typ"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.typ"
+    Type="File"
+    LastWriteTime="133461599931260925"
+    Private="false" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Logical\Libraries\AsIecCon\AsIecCon.var"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.var"
+    Type="File"
+    LastWriteTime="133461599931290866"
+    Private="false" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Logical\Libraries\EasyUaClnt\Binary.lby"
+    LogicalPath="Libraries.EasyUaClnt"
+    Type="Library"
+    LastWriteTime="133475404164857259" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Logical\Libraries\EasyUaClnt\Types.typ"
+    LogicalPath="Libraries.EasyUaClnt.Types.typ"
+    Type="File"
+    LastWriteTime="133475404165147246"
+    Private="false" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Logical\Libraries\EasyUaClnt\Constants.var"
+    LogicalPath="Libraries.EasyUaClnt.Constants.var"
+    Type="File"
+    LastWriteTime="133475404164867253"
+    Private="false" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Logical\Libraries\EasyUaClnt\EasyUaClnt.fun"
+    LogicalPath="Libraries.EasyUaClnt.EasyUaClnt.fun"
+    Type="File"
+    LastWriteTime="133475404164887256"
+    Private="false" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Logical\Libraries\AsOpcUac\binary.lby"
+    LogicalPath="Libraries.AsOpcUac"
+    Type="Library"
+    LastWriteTime="133461599931550772" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Logical\Libraries\AsOpcUac\AsOpcUac.fun"
+    LogicalPath="Libraries.AsOpcUac.AsOpcUac.fun"
+    Type="File"
+    LastWriteTime="133461599931440828"
+    Private="false" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Logical\Libraries\AsOpcUac\AsOpcUac.typ"
+    LogicalPath="Libraries.AsOpcUac.AsOpcUac.typ"
+    Type="File"
+    LastWriteTime="133461599931470804"
+    Private="false" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Logical\Libraries\AsOpcUac\AsOpcUac.var"
+    LogicalPath="Libraries.AsOpcUac.AsOpcUac.var"
+    Type="File"
+    LastWriteTime="133461599931490789"
+    Private="false" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Logical\Libraries\standard\binary.lby"
+    LogicalPath="Libraries.standard"
+    Type="Library"
+    LastWriteTime="133461599932940252" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Logical\Libraries\standard\standard.fun"
+    LogicalPath="Libraries.standard.standard.fun"
+    Type="File"
+    LastWriteTime="133461599932970233"
+    Private="false" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Logical\Libraries\standard\standard.typ"
+    LogicalPath="Libraries.standard.standard.typ"
+    Type="File"
+    LastWriteTime="133461599932990230"
+    Private="false" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Logical\Libraries\standard\standard.var"
+    LogicalPath="Libraries.standard.standard.var"
+    Type="File"
+    LastWriteTime="133461599933020219"
+    Private="false" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Logical\Libraries\AsBrStr\binary.lby"
+    LogicalPath="Libraries.AsBrStr"
+    Type="Library"
+    LastWriteTime="133475404164827271" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Logical\Libraries\AsBrStr\AsBrStr.fun"
+    LogicalPath="Libraries.AsBrStr.AsBrStr.fun"
+    Type="File"
+    LastWriteTime="133461599931001005"
+    Private="false" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Logical\Libraries\AsBrStr\AsBrStr.typ"
+    LogicalPath="Libraries.AsBrStr.AsBrStr.typ"
+    Type="File"
+    LastWriteTime="133461599931031000"
+    Private="false" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Logical\Libraries\AsBrStr\AsBrStr.var"
+    LogicalPath="Libraries.AsBrStr.AsBrStr.var"
+    Type="File"
+    LastWriteTime="133461599931060968"
+    Private="false" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Logical\uaCltTest\IEC.prg"
+    LogicalPath="uaCltTest"
+    Type="Program"
+    LastWriteTime="133475404165297246" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Logical\uaCltTest\Main.st"
+    LogicalPath="uaCltTest.Main.st"
+    Type="File"
+    LastWriteTime="133486797198233738"
+    Private="false" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Logical\uaCltTest\Types.typ"
+    LogicalPath="uaCltTest.Types.typ"
+    Type="File"
+    LastWriteTime="133475404165327264"
+    Private="true" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Logical\uaCltTest\Variables.var"
+    LogicalPath="uaCltTest.Variables.var"
+    Type="File"
+    LastWriteTime="133486561311375847"
+    Private="true" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Physical\Config1\Config.pkg"
+    LogicalPath="Config1"
+    Type="Configuration.ParentUnknown"
+    LastWriteTime="133461599933160167" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Physical\Config1\Hardware.hw"
+    LogicalPath="Config1.Hardware.hw"
+    Type="File"
+    LastWriteTime="133486666401541314"
+    Private="false" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Physical\Config1\Hardware.hwl"
+    LogicalPath="Config1.Hardware.hwl"
+    Type="File"
+    LastWriteTime="133475404165417243"
+    Private="false" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Physical\Config1\X20CP0484\Cpu.pkg"
+    LogicalPath="Config1.X20CP0484"
+    Type="Cpu"
+    LastWriteTime="133486785479967495" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Physical\Config1\X20CP0484\Cpu.sw"
+    LogicalPath="Config1.X20CP0484.Cpu.sw"
+    Type="File"
+    LastWriteTime="133486564184239357"
+    Private="false" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Physical\Config1\X20CP0484\Cpu.per"
+    LogicalPath="Config1.X20CP0484.Cpu.per"
+    Type="File"
+    LastWriteTime="133461599933909875"
+    Private="false" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Physical\Config1\X20CP0484\IoMap.iom"
+    LogicalPath="Config1.X20CP0484.IoMap.iom"
+    Type="File"
+    LastWriteTime="133461599933989856"
+    Private="false" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Physical\Config1\X20CP0484\PvMap.vvm"
+    LogicalPath="Config1.X20CP0484.PvMap.vvm"
+    Type="File"
+    LastWriteTime="133461599934009836"
+    Private="false" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Physical\Config1\X20CP0484\Connectivity\Package.pkg"
+    LogicalPath="Config1.X20CP0484.Connectivity"
+    Type="Package"
+    LastWriteTime="133461599933879897" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Physical\Config1\X20CP0484\Connectivity\OpcUA\Package.pkg"
+    LogicalPath="Config1.X20CP0484.Connectivity.OpcUA"
+    Type="Package"
+    LastWriteTime="133461599933819919" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Physical\Config1\X20CP0484\Connectivity\OpcUaFx\Package.pkg"
+    LogicalPath="Config1.X20CP0484.Connectivity.OpcUaFx"
+    Type="Package"
+    LastWriteTime="133461599933859900" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Physical\Config1\X20CP0484\TextSystem\Package.pkg"
+    LogicalPath="Config1.X20CP0484.TextSystem"
+    Type="Package"
+    LastWriteTime="133461599934039826" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Physical\Config1\X20CP0484\UnitSystem\Package.pkg"
+    LogicalPath="Config1.X20CP0484.UnitSystem"
+    Type="Package"
+    LastWriteTime="133461599934069824" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Physical\Config1\X20CP0484\AccessAndSecurity\Package.pkg"
+    LogicalPath="Config1.X20CP0484.AccessAndSecurity"
+    Type="Package"
+    LastWriteTime="133461599933679975" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Physical\Config1\X20CP0484\AccessAndSecurity\UserRoleSystem\Package.pkg"
+    LogicalPath="Config1.X20CP0484.AccessAndSecurity.UserRoleSystem"
+    Type="Package"
+    LastWriteTime="133486541173198098" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Physical\Config1\X20CP0484\AccessAndSecurity\UserRoleSystem\Role.role"
+    LogicalPath="Config1.X20CP0484.AccessAndSecurity.UserRoleSystem.Role.role"
+    Type="File"
+    LastWriteTime="133461599933779932"
+    Private="false" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Physical\Config1\X20CP0484\AccessAndSecurity\UserRoleSystem\User.user"
+    LogicalPath="Config1.X20CP0484.AccessAndSecurity.UserRoleSystem.User.user"
+    Type="File"
+    LastWriteTime="133486554218303625"
+    Private="false" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Physical\Config1\X20CP0484\AccessAndSecurity\CertificateStore\Package.pkg"
+    LogicalPath="Config1.X20CP0484.AccessAndSecurity.CertificateStore"
+    Type="Package"
+    LastWriteTime="133461599933510028" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Physical\Config1\X20CP0484\AccessAndSecurity\CertificateStore\OwnCertificates\Package.pkg"
+    LogicalPath="Config1.X20CP0484.AccessAndSecurity.CertificateStore.OwnCertificates"
+    Type="Package"
+    LastWriteTime="133461599933440067" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Physical\Config1\X20CP0484\AccessAndSecurity\CertificateStore\OwnCertificates\Certificates\Package.pkg"
+    LogicalPath="Config1.X20CP0484.AccessAndSecurity.CertificateStore.OwnCertificates.Certificates"
+    Type="Package"
+    LastWriteTime="133461599933400085" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Physical\Config1\X20CP0484\AccessAndSecurity\CertificateStore\OwnCertificates\PrivateKeys\Package.pkg"
+    LogicalPath="Config1.X20CP0484.AccessAndSecurity.CertificateStore.OwnCertificates.PrivateKeys"
+    Type="Package"
+    LastWriteTime="133461599933480050" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Physical\Config1\X20CP0484\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\Package.pkg"
+    LogicalPath="Config1.X20CP0484.AccessAndSecurity.CertificateStore.ThirdPartyCertificates"
+    Type="Package"
+    LastWriteTime="133461599933550017" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Physical\Config1\X20CP0484\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\SoftwareCertificates\Package.pkg"
+    LogicalPath="Config1.X20CP0484.AccessAndSecurity.CertificateStore.ThirdPartyCertificates.SoftwareCertificates"
+    Type="Package"
+    LastWriteTime="133461599933589999" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Physical\Config1\X20CP0484\AccessAndSecurity\CertificateStore\CertificateRevocationLists\Package.pkg"
+    LogicalPath="Config1.X20CP0484.AccessAndSecurity.CertificateStore.CertificateRevocationLists"
+    Type="Package"
+    LastWriteTime="133461599933310112" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Physical\Config1\X20CP0484\AccessAndSecurity\CertificateStore\CertificateSigningRequests\Package.pkg"
+    LogicalPath="Config1.X20CP0484.AccessAndSecurity.CertificateStore.CertificateSigningRequests"
+    Type="Package"
+    LastWriteTime="133461599933350085" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Physical\Config1\X20CP0484\AccessAndSecurity\TransportLayerSecurity\Package.pkg"
+    LogicalPath="Config1.X20CP0484.AccessAndSecurity.TransportLayerSecurity"
+    Type="Package"
+    LastWriteTime="133461599933719963" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Physical\Config1\X20CP0484\AccessAndSecurity\Firewall\Package.pkg"
+    LogicalPath="Config1.X20CP0484.AccessAndSecurity.Firewall"
+    Type="Package"
+    LastWriteTime="133461599933619980" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Physical\Config1\X20CP0484\AccessAndSecurity\Firewall\Rules.firewallRules"
+    LogicalPath="Config1.X20CP0484.AccessAndSecurity.Firewall.Rules.firewallRules"
+    Type="File"
+    LastWriteTime="133461599933649979"
+    Private="false" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Physical\Config1\X20CP0484\mappControl\Package.pkg"
+    LogicalPath="Config1.X20CP0484.mappControl"
+    Type="Package"
+    LastWriteTime="133461599934129795" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Physical\Config1\X20CP0484\mappMotion\Package.pkg"
+    LogicalPath="Config1.X20CP0484.mappMotion"
+    Type="Package"
+    LastWriteTime="133461599934159778" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Physical\Config1\X20CP0484\mappServices\Package.pkg"
+    LogicalPath="Config1.X20CP0484.mappServices"
+    Type="Package"
+    LastWriteTime="133475404165487238" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Physical\Config1\X20CP0484\mappSafety\Package.pkg"
+    LogicalPath="Config1.X20CP0484.mappSafety"
+    Type="Package"
+    LastWriteTime="133461599934189783" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Physical\Config1\X20CP0484\mappSafety\SafeApplication\Package.pkg"
+    LogicalPath="Config1.X20CP0484.mappSafety.SafeApplication"
+    Type="Package"
+    LastWriteTime="133461599934219757" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Physical\Config1\X20CP0484\mappSafety\SafeCommissioning\Package.pkg"
+    LogicalPath="Config1.X20CP0484.mappSafety.SafeCommissioning"
+    Type="Package"
+    LastWriteTime="133461599934259752" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Physical\Config1\X20CP0484\mappView\Package.pkg"
+    LogicalPath="Config1.X20CP0484.mappView"
+    Type="Package"
+    LastWriteTime="133461599934329724" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Physical\Config1\X20CP0484\mappVision\Package.pkg"
+    LogicalPath="Config1.X20CP0484.mappVision"
+    Type="Package"
+    LastWriteTime="133461599934359716" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Physical\Config1\X20CP0484\mappCockpit\Package.pkg"
+    LogicalPath="Config1.X20CP0484.mappCockpit"
+    Type="Package"
+    LastWriteTime="133461599934099807" />
+  <Object
+    Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Physical\Config1\Hardware.jpg"
+    LogicalPath="Config1.Hardware.jpg"
+    Type="File"
+    LastWriteTime="133475404165437238"
+    Private="false" />
+</Objects>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.12.4.107 SP"?>
+<ConfigInfo xmlns="http://br-automation.co.at/AS/BuildInfo">
+  <TaskClass
+    Name="Cyclic#1">
+    <Task
+      Name="uaCltTest"
+      Disable="false"
+      Source="uaCltTest"
+      Language="IEC">
+      <InternalFile
+        Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Temp\Objects\Config1\X20CP0484\uaCltTest\Main.st.var" />
+      <File
+        Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Logical\uaCltTest\Types.typ" />
+      <File
+        Path="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Logical\uaCltTest\Variables.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#2" />
+</ConfigInfo>

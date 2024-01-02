@@ -1,0 +1,7 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/EasyUaClnt/EasyUaClnt.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/AsOpcUac/AsOpcUac.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/AsOpcUac/AsOpcUac.var
+$(AS_PROJECT_PATH)/Logical/Libraries/AsOpcUac/AsOpcUac.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/EasyUaClnt/Types.typ
+$(AS_PROJECT_PATH)/Logical/uaCltTest/Variables.var
+$(AS_PROJECT_PATH)/Logical/Libraries/standard/standard.fun

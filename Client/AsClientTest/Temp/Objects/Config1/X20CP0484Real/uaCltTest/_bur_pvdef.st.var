@@ -1,0 +1,2 @@
+VAR
+END_VAR

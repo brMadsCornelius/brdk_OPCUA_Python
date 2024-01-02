@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9" WorkingVersion="4.12"?>
+<RuleSetOptions UsesUTCTime="True">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\ashwac.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2024-01-02 10.57.20" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\ashwac.br&quot; -L &quot;AsBrStr: V*, AsIecCon: V*, AsOpcUac: V*, astime: V*, EasyUaClnt: V1.02.0, operator: V*, runtime: V*, standard: V*&quot; -c &quot;Config1&quot; -Z &quot;Connectivity: n.d, UnitSystem: n.d, FMUExport: n.d, TextSystem: n.d, ProgrammingSystem: n.d, RemanentData: n.d, AAS: n.d&quot; -M IA32 -B H4.93 -P &quot;$(AS_PROJECT_PATH)&quot; -s &quot;Config1&quot; -T SG4 " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\sysconf.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2024-01-02 10.57.20" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot;  -c &quot;Config1&quot; -sysconf -S &quot;X20CP0484&quot; -Z &quot;Connectivity: n.d, UnitSystem: n.d, FMUExport: n.d, TextSystem: n.d, ProgrammingSystem: n.d, RemanentData: n.d, AAS: n.d&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\sysconf.br&quot; -T SG4 -B H4.93 -P &quot;$(AS_PROJECT_PATH)&quot; -s &quot;Config1&quot; " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\asfw.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2024-01-02 10.57.20" />
+    <Prerequisite ID="c:\brautomation\as412\upgrades\modified.txt" LastWriteTime="2023-11-08 13.02.48" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot;  -v V1.00.0 -S &quot;X20CP0484&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\asfw.br&quot; -T SG4 -B H4.93 -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;Config1&quot; -zip -s &quot;Config1&quot; -firmware -Z &quot;Connectivity: n.d, UnitSystem: n.d, FMUExport: n.d, TextSystem: n.d, ProgrammingSystem: n.d, RemanentData: n.d, AAS: n.d&quot; " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\ashwd.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2024-01-02 10.57.20" />
+    <Prerequisite ID="c:\brautomation\as412\upgrades\modified.txt" LastWriteTime="2023-11-08 13.02.48" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot;  -v V1.00.0 -S &quot;X20CP0484&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\ashwd.br&quot; -T SG4 -B H4.93 -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;Config1&quot; -zip -s &quot;Config1&quot; -hwd -Z &quot;Connectivity: n.d, UnitSystem: n.d, FMUExport: n.d, TextSystem: n.d, ProgrammingSystem: n.d, RemanentData: n.d, AAS: n.d&quot; " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\arconfig.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2024-01-02 10.57.20" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\x20cp0484\iomap.iom" LastWriteTime="2023-12-04 10.39.52" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot; &quot;$(AS_PROJECT_PATH)\Physical\Config1\X20CP0484\IoMap.iom&quot;  -arconfig -C &quot;/COMT=2500 /RT=1000 /AM=* /SDT=5 /DAIP=10.45.10.152 /REPO=11159 /ANSL=1 /PT=11169&quot; -D &quot;/IF=tcpip /LOPO=11159 /SA=1&quot; -c &quot;Config1&quot; -v V1.00.0 -S &quot;X20CP0484&quot; -Z &quot;Connectivity: n.d, UnitSystem: n.d, FMUExport: n.d, TextSystem: n.d, ProgrammingSystem: n.d, RemanentData: n.d, AAS: n.d&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\arconfig.br&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\ChannelConfiguration.xml&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\ReActionTechnologyConfiguration.xml&quot; -T SG4 -B H4.93 -P &quot;$(AS_PROJECT_PATH)&quot; -s &quot;Config1&quot; " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\udbdef.br">
+    <Prerequisite ID="c:\brautomation\as412\as\technologypackages\unitsystem\n.d\transfer\modules\sg4\udbdef.br" LastWriteTime="2023-06-02 09.31.52" />
+    <CommandLine Parameter="C:\BrAutomation\AS412\AS\TechnologyPackages\UnitSystem\n.d\Transfer\Modules\SG4\udbdef.br, $(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\udbdef.br" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\iomap.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\x20cp0484\iomap.iom" LastWriteTime="2023-12-04 10.39.52" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\x20cp0484\pvmap.vvm" LastWriteTime="2023-12-04 10.39.52" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2024-01-02 10.57.20" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\x20cp0484\cpu.sw" LastWriteTime="2024-01-02 08.06.58" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\channelconfiguration.xml" LastWriteTime="2024-01-02 08.28.44" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\X20CP0484\IoMap.iom&quot; &quot;$(AS_PROJECT_PATH)\Physical\Config1\X20CP0484\PvMap.vvm&quot;  -m &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\ConfigInfo.cfi&quot; -g &quot;$(AS_PROJECT_PATH)\Temp\Objects\Declarations.lst&quot; -x &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\ChannelConfiguration.xml&quot; -v V1.00.0 -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484&quot; -iomap -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\iomap.br&quot; -T SG4 -B H4.93 -P &quot;$(AS_PROJECT_PATH)&quot; -s &quot;Config1.X20CP0484&quot;" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\tcdata\tcdata.imx">
+    <Prerequisite ID="c:\brautomation\as412\as\technologypackages\textsystem\n.d\objectcatalog\elements\textconfig\template\tc.textconfig" LastWriteTime="2022-05-25 04.28.54" />
+    <CommandLine Parameter=" -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\TCData\TCData.imx&quot; -c &quot;C:\BrAutomation\AS412\AS\TechnologyPackages\TextSystem\n.d\ObjectCatalog\Elements\TextConfig\Template\TC.textconfig&quot; -I &quot;C:\BrAutomation\AS\System\H0493&quot; &quot;C:\BrAutomation\AS412\AS\TechnologyPackages\UnitSystem\n.d&quot; -P &quot;$(AS_PROJECT_PATH)&quot;" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\tcdata\tcdata.s18d">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\tcdata\tcdata.imx" LastWriteTime="2024-01-02 08.28.42" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\TCData\TCData.imx&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\TCData\TCData.s18d&quot;" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\tcdata.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\tcdata\tcdata.s18d" LastWriteTime="2024-01-02 08.28.46" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\TCData\TCData.s18d&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\TCData.br&quot; -t TextModule" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\role.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\x20cp0484\accessandsecurity\userrolesystem\role.role" LastWriteTime="2023-12-04 10.39.52" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\X20CP0484\AccessAndSecurity\UserRoleSystem\Role.role&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\Role.br&quot; -zip -B H4.93 -z n.d -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;Config1&quot; " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\user.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\x20cp0484\accessandsecurity\userrolesystem\user.user" LastWriteTime="2024-01-02 07.50.20" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\x20cp0484\accessandsecurity\userrolesystem\role.role" LastWriteTime="2023-12-04 10.39.52" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\X20CP0484\AccessAndSecurity\UserRoleSystem\User.user&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\User.br&quot; -zip -B H4.93 -z n.d -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;Config1&quot; " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\fwrules.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\x20cp0484\accessandsecurity\firewall\rules.firewallrules" LastWriteTime="2023-12-04 10.39.52" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\X20CP0484\AccessAndSecurity\Firewall\Rules.firewallRules&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\FWRules.br&quot; -zip -B H4.93 -z n.d -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;Config1&quot; " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\uaclttest.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\uaclttest\uaclttest.ox" LastWriteTime="2024-01-02 14.35.50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\x20cp0484\cpu.per" LastWriteTime="2023-12-04 10.39.52" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\easyuaclnt\easyuaclnt.fun" LastWriteTime="2023-12-20 10.06.56" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\asopcuac\asopcuac.typ" LastWriteTime="2023-12-04 10.39.52" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\asopcuac\asopcuac.var" LastWriteTime="2023-12-04 10.39.52" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\asopcuac\asopcuac.fun" LastWriteTime="2023-12-04 10.39.52" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\easyuaclnt\types.typ" LastWriteTime="2023-12-20 10.06.56" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\uaclttest\variables.var" LastWriteTime="2024-01-02 08.02.10" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\standard\standard.fun" LastWriteTime="2023-12-04 10.39.52" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\uaCltTest\uaCltTest.ox&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\uaCltTest.br&quot; -v V1.00.0 -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\NT.ofs&quot; -offsetLT &quot;$(AS_PROJECT_PATH)\Binaries\Config1\X20CP0484\LT.ofs&quot; -T SG4 -M IA32 -B H4.93 -G V4.1.2  -extConstants -d &quot;runtime: V* - V*,asieccon: V* - V*&quot; -r Cyclic1 -p 2 -s &quot;uaCltTest&quot; -L &quot;AsBrStr: V*, AsIecCon: V*, AsOpcUac: V*, astime: V*, EasyUaClnt: V1.02.0, operator: V*, runtime: V*, standard: V*&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
+    <AdditionalBuildTrigger Key="VolatileMemory" Value="65535" />
+    <AdditionalBuildTrigger Key="PermanentAnalogMemory" Value="0" />
+    <AdditionalBuildTrigger Key="PermanentDigitalMemory" Value="0" />
+    <AdditionalBuildTrigger Key="RemanentMemory" Value="0" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\uaclttest\uaclttest.ox">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\uaclttest\a.out" LastWriteTime="2024-01-02 14.35.50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\easyuaclnt\easyuaclnt.fun" LastWriteTime="2023-12-20 10.06.56" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\asopcuac\asopcuac.typ" LastWriteTime="2023-12-04 10.39.52" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\asopcuac\asopcuac.var" LastWriteTime="2023-12-04 10.39.52" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\asopcuac\asopcuac.fun" LastWriteTime="2023-12-04 10.39.52" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\easyuaclnt\types.typ" LastWriteTime="2023-12-20 10.06.56" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\uaclttest\variables.var" LastWriteTime="2024-01-02 08.02.10" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\standard\standard.fun" LastWriteTime="2023-12-04 10.39.52" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\uaCltTest\a.out&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\uaCltTest\uaCltTest.ox&quot; -T SG4 -r Cyclic1 -G V4.1.2  -B H4.93 " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\uaclttest\a.out">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\uaclttest\main.st.o" LastWriteTime="2024-01-02 14.35.50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\uaclttest\_bur_pvdef.st.o" LastWriteTime="2024-01-02 14.35.50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\easyuaclnt\easyuaclnt.fun" LastWriteTime="2023-12-20 10.06.56" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\asopcuac\asopcuac.typ" LastWriteTime="2023-12-04 10.39.52" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\asopcuac\asopcuac.var" LastWriteTime="2023-12-04 10.39.52" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\asopcuac\asopcuac.fun" LastWriteTime="2023-12-04 10.39.52" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\easyuaclnt\types.typ" LastWriteTime="2023-12-20 10.06.56" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\uaclttest\variables.var" LastWriteTime="2024-01-02 08.02.10" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\standard\standard.fun" LastWriteTime="2023-12-04 10.39.52" />
+    <CommandLine Parameter=" -link &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\uaCltTest\Main.st.o&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\uaCltTest\_bur_pvdef.st.o&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\uaCltTest\a.out&quot; -G V4.1.2  -T SG4 -M IA32 &quot;-Wl,$(AS_PROJECT_PATH)\Logical\Libraries\EasyUaClnt\SG4\libEasyUaClnt.a&quot; &quot;-Wl,C:\BrAutomation\AS\System\H0493\SG4\Ia32\libAsIecCon.a&quot; &quot;-Wl,C:\BrAutomation\AS\System\H0493\SG4\Ia32\libAsOpcUac.a&quot; &quot;-Wl,C:\BrAutomation\AS\System\H0493\SG4\Ia32\libastime.a&quot; &quot;-Wl,C:\BrAutomation\AS\System\H0493\SG4\Ia32\libAsBrStr.a&quot; &quot;-Wl,C:\BrAutomation\AS\System\H0493\SG4\Ia32\libstandard.a&quot; &quot;-Wl,C:\BrAutomation\AS\System\H0493\SG4\Ia32\libruntime.a&quot; &quot;-Wl,C:\BrAutomation\AS\System\H0493\SG4\Ia32\liboperator.a&quot; -specs &quot;C:\BrAutomation\AS412\AS\gnuinst\V4.1.2\4.9\i386-elf\specs\I386specs_brelf&quot; -nostdlib &quot;C:\BrAutomation\AS412\AS\gnuinst\V4.1.2\4.9\i386-elf\lib\libm.a&quot;" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\uaclttest\main.st.c">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\uaclttest\main.st" LastWriteTime="2024-01-02 14.35.18" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\easyuaclnt\easyuaclnt.fun" LastWriteTime="2023-12-20 10.06.56" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\asopcuac\asopcuac.typ" LastWriteTime="2023-12-04 10.39.52" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\asopcuac\asopcuac.var" LastWriteTime="2023-12-04 10.39.52" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\asopcuac\asopcuac.fun" LastWriteTime="2023-12-04 10.39.52" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\easyuaclnt\types.typ" LastWriteTime="2023-12-20 10.06.56" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\uaclttest\variables.var" LastWriteTime="2024-01-02 08.02.10" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\standard\standard.fun" LastWriteTime="2023-12-04 10.39.52" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Logical\uaCltTest\Main.st&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\uaCltTest\Main.st.c&quot; -T SG4 -M IA32 -B H4.93 -G V4.1.2  -s &quot;uaCltTest&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -pointers -extComments -extBitAccess -extConstants -D _SG4 -l &quot;$(AS_PROJECT_PATH)\Logical\uaCltTest\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\uaCltTest\Variables.var&quot; -g &quot;$(AS_PROJECT_PATH)\Logical\Global.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\EasyUaClnt\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUac\AsOpcUac.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrStr\AsBrStr.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\EasyUaClnt\EasyUaClnt.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUac\AsOpcUac.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrStr\AsBrStr.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Global.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\EasyUaClnt\Constants.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUac\AsOpcUac.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrStr\AsBrStr.var&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
+    <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\uaclttest\main.st.o">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\uaclttest\main.st.c" LastWriteTime="2024-01-02 14.35.50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\easyuaclnt\easyuaclnt.fun" LastWriteTime="2023-12-20 10.06.56" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\asopcuac\asopcuac.typ" LastWriteTime="2023-12-04 10.39.52" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\asopcuac\asopcuac.var" LastWriteTime="2023-12-04 10.39.52" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\asopcuac\asopcuac.fun" LastWriteTime="2023-12-04 10.39.52" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\easyuaclnt\types.typ" LastWriteTime="2023-12-20 10.06.56" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\uaclttest\variables.var" LastWriteTime="2024-01-02 08.02.10" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\standard\standard.fun" LastWriteTime="2023-12-04 10.39.52" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\uaCltTest\Main.st.c&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\uaCltTest\Main.st.o&quot; -T SG4 -M IA32 -B H4.93 -G V4.1.2  -s &quot;uaCltTest&quot; -specs &quot;C:\BrAutomation\AS412\AS\gnuinst\V4.1.2\4.9\i386-elf\specs\I386specs_brelf&quot; -I &quot;$(AS_PROJECT_PATH)\Logical\uaCltTest&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes\uaCltTest&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes&quot; -ansi -D _DEFAULT_INCLUDES -D _SG4 -fPIC -O0 -g -Wall -w -include &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\Libraries.h&quot; -ansic -x c -P &quot;$(AS_PROJECT_PATH)&quot;" />
+    <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\uaclttest\_bur_pvdef.st.c">
+    <Prerequisite ID="c:\brautomation\as412\as\gnuinst\v4.1.2\4.9\i386-elf\include\bur\_bur_pvdef.st" LastWriteTime="2022-05-25 04.28.44" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\uaclttest\main.st.o" LastWriteTime="2024-01-02 14.35.50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\easyuaclnt\easyuaclnt.fun" LastWriteTime="2023-12-20 10.06.56" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\asopcuac\asopcuac.typ" LastWriteTime="2023-12-04 10.39.52" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\asopcuac\asopcuac.var" LastWriteTime="2023-12-04 10.39.52" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\asopcuac\asopcuac.fun" LastWriteTime="2023-12-04 10.39.52" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\easyuaclnt\types.typ" LastWriteTime="2023-12-20 10.06.56" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\uaclttest\variables.var" LastWriteTime="2024-01-02 08.02.10" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\standard\standard.fun" LastWriteTime="2023-12-04 10.39.52" />
+    <CommandLine Parameter="&quot;C:\BrAutomation\AS412\AS\gnuinst\V4.1.2\4.9\i386-elf\include\bur\_bur_pvdef.st&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\uaCltTest\_bur_pvdef.st.c&quot; -S &quot;Main.st&quot;  -T SG4 -M IA32 -B H4.93 -G V4.1.2  -s &quot;uaCltTest&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -pointers -extComments -extBitAccess -extConstants -D _SG4 -l &quot;$(AS_PROJECT_PATH)\Logical\uaCltTest\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\uaCltTest\Variables.var&quot; -g &quot;$(AS_PROJECT_PATH)\Logical\Global.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\EasyUaClnt\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUac\AsOpcUac.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrStr\AsBrStr.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\EasyUaClnt\EasyUaClnt.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUac\AsOpcUac.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrStr\AsBrStr.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Global.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\EasyUaClnt\Constants.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsOpcUac\AsOpcUac.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsBrStr\AsBrStr.var&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
+    <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\uaclttest\_bur_pvdef.st.o">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\uaclttest\_bur_pvdef.st.c" LastWriteTime="2024-01-02 14.35.50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\uaclttest\main.st.o" LastWriteTime="2024-01-02 14.35.50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\easyuaclnt\easyuaclnt.fun" LastWriteTime="2023-12-20 10.06.56" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\asopcuac\asopcuac.typ" LastWriteTime="2023-12-04 10.39.52" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\asopcuac\asopcuac.var" LastWriteTime="2023-12-04 10.39.52" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\asopcuac\asopcuac.fun" LastWriteTime="2023-12-04 10.39.52" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\easyuaclnt\types.typ" LastWriteTime="2023-12-20 10.06.56" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\uaclttest\variables.var" LastWriteTime="2024-01-02 08.02.10" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\standard\standard.fun" LastWriteTime="2023-12-04 10.39.52" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\uaCltTest\_bur_pvdef.st.c&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\uaCltTest\_bur_pvdef.st.o&quot; -T SG4 -M IA32 -B H4.93 -G V4.1.2  -s &quot;uaCltTest&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -specs &quot;C:\BrAutomation\AS412\AS\gnuinst\V4.1.2\4.9\i386-elf\specs\I386specs_brelf&quot; -I &quot;$(AS_PROJECT_PATH)\Logical\uaCltTest&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes\uaCltTest&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes&quot; -trigraphs -fno-asm -D _DEFAULT_INCLUDES -D _SG4 -fPIC -O0 -g -Wall -include &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\Libraries.h&quot; -P &quot;$(AS_PROJECT_PATH)&quot;" />
+    <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\easyuaclnt.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\easyuaclnt\sg4\easyuaclnt.br" LastWriteTime="2023-12-20 10.06.56" />
+    <CommandLine Parameter="$(AS_PROJECT_PATH)\Logical\Libraries\EasyUaClnt\SG4\EasyUaClnt.br, $(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\EasyUaClnt.br" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\asieccon.br">
+    <Prerequisite ID="c:\brautomation\as\system\h0493\sg4\ia32\asieccon.br" LastWriteTime="2023-10-06 07.42.28" />
+    <CommandLine Parameter="C:\BrAutomation\AS\System\H0493\SG4\Ia32\AsIecCon.br, $(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\AsIecCon.br" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\runtime.br">
+    <Prerequisite ID="c:\brautomation\as\system\h0493\sg4\ia32\runtime.br" LastWriteTime="2023-10-06 07.42.28" />
+    <CommandLine Parameter="C:\BrAutomation\AS\System\H0493\SG4\Ia32\runtime.br, $(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\runtime.br" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\astime.br">
+    <Prerequisite ID="c:\brautomation\as\system\h0493\sg4\ia32\astime.br" LastWriteTime="2023-10-06 07.42.28" />
+    <CommandLine Parameter="C:\BrAutomation\AS\System\H0493\SG4\Ia32\astime.br, $(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\astime.br" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\asopcuac.br">
+    <Prerequisite ID="c:\brautomation\as\system\h0493\sg4\ia32\asopcuac.br" LastWriteTime="2023-10-06 07.42.28" />
+    <CommandLine Parameter="C:\BrAutomation\AS\System\H0493\SG4\Ia32\AsOpcUac.br, $(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\AsOpcUac.br" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\standard.br">
+    <Prerequisite ID="c:\brautomation\as\system\h0493\sg4\ia32\standard.br" LastWriteTime="2023-10-06 07.42.28" />
+    <CommandLine Parameter="C:\BrAutomation\AS\System\H0493\SG4\Ia32\standard.br, $(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\standard.br" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\asbrstr.br">
+    <Prerequisite ID="c:\brautomation\as\system\h0493\sg4\ia32\asbrstr.br" LastWriteTime="2023-10-06 07.42.28" />
+    <CommandLine Parameter="C:\BrAutomation\AS\System\H0493\SG4\Ia32\AsBrStr.br, $(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\AsBrStr.br" />
+  </Rule>
+  <Rule ID="#cpu_tp.mak">
+    <CommandLine Parameter=" -r -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\#cpu_tp.mak&quot; -k" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\binaries\config1\x20cp0484\transfer.lst">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\ashwac.br" LastWriteTime="2024-01-02 08.28.44" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\sysconf.br" LastWriteTime="2024-01-02 08.28.44" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\asfw.br" LastWriteTime="2024-01-02 08.28.46" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\ashwd.br" LastWriteTime="2024-01-02 08.28.46" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\arconfig.br" LastWriteTime="2024-01-02 08.28.44" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\udbdef.br" LastWriteTime="2023-06-02 09.31.52" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\iomap.br" LastWriteTime="2024-01-02 08.28.44" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\tcdata.br" LastWriteTime="2024-01-02 08.28.46" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\role.br" LastWriteTime="2024-01-02 08.28.44" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\user.br" LastWriteTime="2024-01-02 08.28.44" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\fwrules.br" LastWriteTime="2024-01-02 08.28.44" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\uaclttest.br" LastWriteTime="2024-01-02 14.35.52" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\easyuaclnt.br" LastWriteTime="2023-12-20 10.06.56" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\asieccon.br" LastWriteTime="2023-10-06 07.42.28" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\runtime.br" LastWriteTime="2023-10-06 07.42.28" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\astime.br" LastWriteTime="2023-10-06 07.42.28" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\asopcuac.br" LastWriteTime="2023-10-06 07.42.28" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\standard.br" LastWriteTime="2023-10-06 07.42.28" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\asbrstr.br" LastWriteTime="2023-10-06 07.42.28" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\x20cp0484\cpu.sw" LastWriteTime="2024-01-02 08.06.58" />
+    <CommandLine Parameter=" &quot;$(AS_PROJECT_PATH)\opcuaServerTest.apj&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -o &quot;$(AS_PROJECT_PATH)\Binaries&quot; -c &quot;Config1&quot; -i &quot;C:\BrAutomation\AS412&quot; -S &quot;X20CP0484&quot; -A &quot;X20CP04xx&quot; -pil -swFiles &quot;$(AS_PROJECT_PATH)\Physical\Config1\X20CP0484\Cpu.sw&quot; -Z &quot;Connectivity: n.d, UnitSystem: n.d, FMUExport: n.d, TextSystem: n.d, ProgrammingSystem: n.d, RemanentData: n.d, AAS: n.d&quot; -C &quot;/COMT=2500 /RT=1000 /AM=* /SDT=5 /DAIP=10.45.10.152 /REPO=11159 /ANSL=1 /PT=11169&quot; -D &quot;/IF=tcpip /LOPO=11159 /SA=1&quot; -M IA32 -T SG4" />
+  </Rule>
+</RuleSetOptions>

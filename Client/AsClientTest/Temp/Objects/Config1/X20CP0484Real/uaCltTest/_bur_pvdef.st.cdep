@@ -1,0 +1,5 @@
+$(AS_CPU_PATH)/uaclttest/_bur_pvdef.st.o:
+$(AS_CPU_PATH)/uaclttest/_bur_pvdef.st.c
+$(AS_GNU_INST_PATH)/4.9/arm-elf/include/bur/plctypes.h
+$(AS_GNU_INST_PATH)/4.9/arm-elf/include/bur/plc.h
+$(AS_CPU_PATH)/uaclttest/_bur_pvdefst.h

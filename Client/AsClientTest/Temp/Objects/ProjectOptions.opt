@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.12.4.107 SP"?>
+<ProjectOptions
+  IecNamingConventions="true"
+  IecKeywordsAsStructureMembers="false"
+  IecExtendedConstants="true"
+  LogicalDirectory="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Logical\"
+  TempDirectory="C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Temp\"
+  AutomationStudioVersion="4.12.4.107 SP"
+  AutomationStudioEdition="Standard"
+  BuildCrossReference="false"
+  ActiveConfiguration="Config1"
+  CreateAnsiCDeclarations="false" />

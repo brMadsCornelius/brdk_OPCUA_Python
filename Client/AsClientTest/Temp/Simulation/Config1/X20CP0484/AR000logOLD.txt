@@ -1,0 +1,21 @@
+Tue Jan  2 11:57:20 2024
+COPYRIGHT (C) B&R Industrial Automation GmbH
+
+Tue Jan  2 11:57:20 2024
+No ARsim registration found!
+
+Tue Jan  2 11:57:20 2024
+InstanceName: 00000969eb4c9154
+
+Tue Jan  2 11:57:20 2024
+WorkingDirectory: C:\projects\brdk_OPCUA_Python\Client\AsClientTest\Temp\Simulation\Config1\X20CP0484\
+
+Tue Jan  2 11:57:20 2024
+COMMAND_COLDSTART
+
+Tue Jan  2 11:57:22 2024
+Version: H4.93
+
+Tue Jan  2 12:27:10 2024
+COMMAND_TERMINATE
+
